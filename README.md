@@ -16,7 +16,7 @@ I am an **Industrial Mathematics** graduate dedicated to humanizing complex data
 
 ## 📁 Featured Projects
 
-### 📊 [WordAlive Engagement Automation](images/dashboard.png)
+### 📊 [WordAlive Engagement Automation](WordAlive-Engagement-Automation/images/dashboard.png)
 **Tools:** Excel, Google Forms, Pivot Tables
 * Automated a manual tracking system for a 100+ member reading community.
 * Built a digital pipeline that transforms raw Google Form inputs into real-time engagement dashboards.
