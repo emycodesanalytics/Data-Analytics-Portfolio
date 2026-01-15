@@ -27,7 +27,7 @@ Using my background in **Industrial Mathematics**, I built a calculation engine 
 ### 3. Visualization & Reporting (The Dashboard)
 The final output is an interactive dashboard that translates numbers into a visual narrative.
 * **Key Insight Segmentation:** I specifically designed the dashboard to highlight members hitting **50% and 60% submission rates**. This allows leadership to identify "at-risk" members or those needing a final push toward total consistency.
-* **Tools:** Pivot Tables, Slicers, and Dynamic Charts.
+* **Tools:** Excel Tables and Charts.
 
 ---
 
