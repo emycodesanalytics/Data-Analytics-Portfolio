@@ -29,7 +29,7 @@ I am an **Industrial Mathematics** graduate dedicated to humanizing complex data
 * [cite_start]**Academic Benchmarking:** Validated the method's accuracy against established research by **Olayemi (2015)**, **Omole (2023)**, **Kuboye (2021)**, and **Adesanya (2011)**. [cite: 11, 43, 213]
 * [cite_start]**Key Skill:** Applied advanced mathematical theory (Power Series, Collocation, and Stability Analysis) to achieve a high-precision error constant ($C_8 \approx -0.002116$). [cite: 40, 124, 171]
 
-### 🎬 [Decadal Content Analysis: Streaming Trends](Streaming-Trends-Analysis/)
+### 🎬 [Streaming Trends](Streaming-Trends-Analysis/)
 **Tools:** Python (Pandas, Matplotlib)
 * Performed Exploratory Data Analysis (EDA) on a dataset of 4,800+ titles to uncover entertainment industry patterns for a production company specializing in nostalgic styles.
 * **Technical Achievement:** Utilized boolean indexing and temporal segmentation to isolate 1990s content and identify significant outliers in genre distribution.
