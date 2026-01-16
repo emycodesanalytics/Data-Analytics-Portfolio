@@ -36,7 +36,7 @@ $$
 Evaluating the continuous form at $t=4$ yields the main discrete scheme:
 $$y_{n+4} - 2y_{n+2} + y_n = \frac{h^2}{15} (f_{n} + 16f_{n+1} + 26f_{n+2} + 16f_{n+3} + f_{n+4})$$
 
-And the derivative $(\text{y}')$ provider:
+Differentiating the continuous scheme and evaluating at $t=4$ yields:
 $$y'_{n+4} = - \frac{149}{42}y_{n+2} + \frac{128}{21}y_{n+1} - \frac{107}{42}y_{n} + \frac{h^{2}}{1260} \left( 325f_{n} + 4048f_{n+1} + 1106f_{n+2} + 1744f_{n+3} + 397f_{n+4} \right)$$
 
 ---
@@ -69,10 +69,14 @@ The method was implemented in Maple to solve four specific benchmark problems:
 
 ```text
 ├── Documentation/
-│   └── MTS192584_OGUNDARE_THESIS.pdf   # Full Thesis Document (LaTeX)
+│   └── MTS192584_OGUNDARE_THESIS.pdf  
+│   └── MTS192584_OGUNDARE_THESIS.tex   # Full Thesis Document (LaTeX)
 ├── Scripts/
-│   └── Maple_Calculations.mw           # Maple Worksheet for Derivations
-└── README.md
+│   └── Maple_Calculations_1.mw         # Maple Worksheet for Derivations
+│   └── Maple_Calculations_2.mw  
+│   └── Maple_Calculations_3.mw  
+│   └── Maple_Calculations_4.mw  
+└── README.md 
 ```
 ---
 
