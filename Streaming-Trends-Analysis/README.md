@@ -1,4 +1,4 @@
-# 🎬 Decadal Content Analysis: Exploring Streaming Trends of the 1990s
+# 🎬 Exploring Streaming Trends of the 1990s
 **Technical Research Case Study | Python Data Exploration**
 
 ## 📌 Project Objective
