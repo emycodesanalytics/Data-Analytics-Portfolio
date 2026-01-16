@@ -43,7 +43,7 @@ I am an **Industrial Mathematics** graduate dedicated to humanizing complex data
 ## 🖼️ Project Gallery
 | Community Automation | Numerical Analysis |
 | :---: | :---: |
-| ![Dashboard](WordAlive-Engagement-Automation/Images/dashboard.png) | ![ODE Graph](Final-Year-Project/Images/problem1_graph.png) |
+| ![Dashboard](WordAlive-Engagement-Automation/images/dashboard.png) | ![ODE Graph](Final-Year-Project/Images/problem1_graph.png) |
 | *Excel Engagement Dashboard* | *Convergence & Stability Plot* |
 
 ---
