@@ -44,6 +44,7 @@ I am an **Industrial Mathematics** graduate specializing in Data Analytics and P
 
 ## 📈 My "Practice to Perfection" Journey
 I am a **3MTT Fellow** and **ForbesBLK Member** dedicated to technical excellence in Data Analytics. I focus on "learning in public" by documenting technical workflows, data integrity processes, and automation logic.
+
 I believe that a Data Analyst's greatest tool is the ability to present findings without bias. While I am constantly learning and refining my skills, I am committed to "learning in public." You can find my recent lessons on data integrity and process automation documented here and on my LinkedIn.
 
 ---
