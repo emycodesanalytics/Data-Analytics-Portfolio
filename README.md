@@ -36,14 +36,15 @@ I am an **Industrial Mathematics** graduate specializing in Data Analytics and P
 
 ## 🖼️ Project Gallery
 | Community Automation | Fitness Trend Analysis | Streaming Trends |
-| :---: | :---: | :---: |
-| ![Dashboard](WordAlive-Engagement-Automation/images/dashboard.png) | ![Fitness Plot](Fitness-Trends-Analysis/Images/category_distribution.png) | ![Streaming Plot](Streaming-Trends-Analysis/Images/category_distribution.png) |
+| :---: | :---: | :---: |St
+| ![Dashboard](WordAlive-Engagement-Automation/images/dashboard.png) | ![Fitness Plot](Fitness-Trends-Analysis/Images/category_distribution.png) | ![Streaming Plot](Final-Year-Project/Images/problem1_graph.png) |
 | *Excel Engagement Dashboard* | *2020 Search Peak Visualization* | *90s Duration Distribution* |
 
 ---
 
 ## 📈 My "Practice to Perfection" Journey
 I am a **3MTT Fellow** and **ForbesBLK Member** dedicated to technical excellence in Data Analytics. I focus on "learning in public" by documenting technical workflows, data integrity processes, and automation logic.
+I believe that a Data Analyst's greatest tool is the ability to present findings without bias. While I am constantly learning and refining my skills, I am committed to "learning in public." You can find my recent lessons on data integrity and process automation documented here and on my LinkedIn.
 
 ---
 
