@@ -37,7 +37,7 @@ I am an **Industrial Mathematics** graduate specializing in Data Analytics and P
 ## 🖼️ Project Gallery
 | Community Automation | Fitness Trend Analysis | Streaming Trends |
 | :---: | :---: | :---: |St
-| ![Dashboard](WordAlive-Engagement-Automation/images/dashboard.png) | ![Fitness Plot](Fitness-Trends-Analysis/Images/category_distribution.png) | ![Streaming Plot](Final-Year-Project/Images/problem1_graph.png) |
+| ![Dashboard](WordAlive-Engagement-Automation/images/dashboard.png) | ![Fitness Plot](Fitness-Trends-Analysis/Images/category_distribution.png) | ![Streaming Plot](Final-Year-Project/Images/problem1_graph1.png) |
 | *Excel Engagement Dashboard* | *2020 Search Peak Visualization* | *90s Duration Distribution* |
 
 ---
