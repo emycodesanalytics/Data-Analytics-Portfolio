@@ -56,3 +56,7 @@ The final output is an interactive dashboard that translates numbers into a visu
 *This project is part of my "Practice to Perfection" journey. I am currently expanding this portfolio to include SQL and Python projects.*
 
 **Connect with me:** [LinkedIn](https://linkedIn.com/in/emycodes)
+
+---
+
+©️ **EmyCodes | 2026**
