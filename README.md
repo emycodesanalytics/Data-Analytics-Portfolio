@@ -21,7 +21,7 @@ I am an **Industrial Mathematics** graduate specializing in Data Analytics and P
 * **Finding:** Identified the **United States** and **Philippines** as high-growth regions for specific fitness equipment niches.
 
 ### 📊 [WordAlive Engagement Automation](WordAlive-Engagement-Automation/)
-**Tools:** Excel, Google Forms, Pivot Tables, VBA
+**Tools:** Excel, Google Forms, Excel Tables
 * Automated a manual tracking system for a 100+ member community to eliminate data entry bottlenecks.
 * **Technical Achievement:** Built a digital pipeline transforming raw Google Form inputs into real-time analytical dashboards.
 * **Metric:** Segmented users by 50% and 60% submission rates to provide technical data for targeted retention strategies.
