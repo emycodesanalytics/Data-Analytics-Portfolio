@@ -33,4 +33,6 @@ The dashboard integrates multiple visual narratives (Funnel, Column, Line, and P
 This is just the beginning. My next step is to run this same validated dataset through **IBM Cognos** and **Google Looker** to compare how different enterprise tools handle the same narrative.
 
 ---
-*"It’s one thing to collect data, but it’s another to make it speak."* ©️ **EmyCodes | 2026**
+*"It’s one thing to collect data, but it’s another to make it speak."* 
+
+©️ **EmyCodes | 2026**
