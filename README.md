@@ -54,3 +54,7 @@ I believe that a Data Analyst's greatest tool is the ability to present findings
 
 ---
 *"Data is most powerful when it serves as a clear, honest bridge between raw numbers and strategic growth."*
+
+---
+
+©️ **EmyCodes | 2026**
