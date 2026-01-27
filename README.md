@@ -14,6 +14,15 @@ I am an **Industrial Mathematics** graduate specializing in Data Analytics and P
 
 ## 📁 Featured Projects
 
+### 📈 [Python-Stock-Revenue-Analysis](Stock-Revenue-Analysis-Tesla_GameStop/)
+**Tools:** Python (yfinance, BeautifulSoup, Matplotlib, Pandas)
+
+- Automated a live data-harvesting pipeline to analyze the correlation between stock market valuation and quarterly revenue.
+- **Technical Achievement:** Engineered a custom web scraper using `requests` and `BeautifulSoup` to extract quarterly revenue from unstructured HTML tables.
+- **Strategic Insights:**
+  - **Tesla (TSLA):** Visualized a strong historical correlation between surging production revenue and stock appreciation, particularly during the 2020–2021 expansion phase when the market began pricing in long-term profitability.
+  -  **GameStop (GME):** Quantified the historic *decoupling* of stock price from fundamental revenue during early 2021, illustrating a classic data signature of sentiment-driven market volatility.
+
 ### 📊 [WPM-DWR-Automation-2025](WPM-DWR-Automation-2025/)
 **Tools:** Microsoft Excel, Google Forms, Automated Google Sheets Pipeline
 * Developed a full-cycle data solution to transition a manual monitoring system into an automated digital ecosystem for **Word Point Ministries**.
