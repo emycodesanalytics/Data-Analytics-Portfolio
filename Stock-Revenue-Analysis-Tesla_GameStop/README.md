@@ -48,11 +48,7 @@ This produced synchronized datasets suitable for comparative visualization.
 ### Setup & Custom Dashboard Function: 
 ### 1. Installed required Libraries
 ```bash
-!pip install yfinance
-!pip install bs4
-!pip install nbformat
-!pip install matplotlib
-!pip install lxml html5lib bs4
+!pip install -r requirements.txt
 ```
 ### 2. Imported neccassary python Libraries
 ```python
