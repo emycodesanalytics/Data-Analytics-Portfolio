@@ -1,4 +1,4 @@
-# 🏙️ Urban Analytics with SQL & Python: Crime, Education, and Census Data (Chicago)
+# Urban Analytics with SQL & Python: Crime, Education, and Census Data (Chicago)
 
 ## 📌 Project Overview
 
@@ -471,3 +471,31 @@ LIMIT 1;
 </table>
 
 **Interpretation**: Austin is the community area with the most recorded crimes in the dataset.
+
+---
+## Key Takeaways
+ - Crime is unevenly distributed across Chicago communities
+ - High poverty and hardship indices strongly correlate with crime concentration
+ - Schools are common locations for various crime types
+ - Relational databases + SQL enable powerful cross-domain insights
+ - Clean data pipelines are essential for urban analytics
+ - This project showcases how integrated data analysis can inform urban policy and community interventions.
+
+
+## Final Note
+This project shows end-to-end analytical ownership:  
+Data ingestion → Database design → SQL analysis → Interpretation — all using real urban data.  
+This is how civic data becomes evidence.
+
+---
+
+## 📫 Connect with me:
+* **LinkedIn:** [linkedin.com/in/emycodes](https://linkedin.com/in/emycodes)
+* **Role Interests:** Data Analyst, Business Intelligence Analyst, Product Analyst, Operations Research.
+
+---
+*"Data is most powerful when it serves as a clear, honest bridge between raw numbers and strategic growth."*
+
+---
+
+©️ **EmyCodes | 2026**
