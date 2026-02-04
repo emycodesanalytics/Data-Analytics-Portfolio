@@ -1,4 +1,4 @@
-# 📚 WordAlive Community Engagement Automation
+# WordAlive Community Engagement Automation
 **Organization:** WordAlive Readers’ Community  
 **Role:** Volunteer Data Analyst  
 **Project Type:** Data Pipeline & Workflow Automation  
