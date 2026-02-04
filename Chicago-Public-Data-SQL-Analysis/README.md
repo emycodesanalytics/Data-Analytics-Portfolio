@@ -38,6 +38,8 @@ Official Chicago open datasets (subset versions prepared for SQL analysis):
 - Jupyter Notebook  
 - ipython-sql  
 
+**Dependencies** are listed in [`requirements.txt`](./requirements.txt).
+
 ## 🗄️ Database Schema
 
 ### 1️⃣ [CENSUS_DATA]("dataset/Chicago-Census-Data.csv")
