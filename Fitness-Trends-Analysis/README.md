@@ -1,4 +1,4 @@
-# 📱 Data-Driven Product Management: Market Analysis for App Development
+# Data-Driven Product Management: Market Analysis for App Development
 **Technical Research Case Study | Python Business Intelligence**
 
 ## 📌 Project Overview
@@ -13,7 +13,7 @@ This research analyzed the mobile app market using a dataset of over 9,000 apps 
 
 ---
 
-## 🧮 Research Methodology
+## Research Methodology
 A multi-stage data pipeline was implemented to transform raw, "dirty" market data into actionable insights:
 
 1.  **Data Sanitization & Cleaning:** I addressed data integrity issues in the `Installs` and `Price` columns by stripping non-numeric characters (e.g., `+`, `,`, `$`).
@@ -23,7 +23,7 @@ A multi-stage data pipeline was implemented to transform raw, "dirty" market dat
 
 ---
 
-## 📊 Key Insights & Market Outcomes
+## Key Insights & Market Outcomes
 * **Niche Opportunity:** Specific categories like **HEALTH_AND_FITNESS** showed a strong balance of high user installs and high sentiment (ratings), representing a prime "Market-Product Fit."
 * **Monetization Strategy:** The analysis confirmed that the vast majority of successful market leaders follow a **Freemium model**, suggesting that a "Free-to-Install" entry point is essential for rapid scaling.
 * **Rating Benchmarks:** Established that a new product must target a minimum rating of **4.3** to be competitive, as the majority of high-performing apps cluster between 4.0 and 4.5.
@@ -38,7 +38,7 @@ A multi-stage data pipeline was implemented to transform raw, "dirty" market dat
 
 ---
 
-## 💻 Technical Implementation
+## Technical Implementation
 The core of this project involved programmatic data cleaning using Python's `apply` and `lambda` functions to prepare the dataset for statistical analysis.
 
 ```python
