@@ -104,7 +104,7 @@ Using magic commands to connect to the SQLite database with prefixed code, '%%sq
 ```
 
 ## Analytical Questions, SQL Queries & Outcomes
-### Problem 1: Total number of crimes recorded
+### 1.  What is the total number of crimes recorded in the dataset?
 ```sql
 %%sql
 SELECT COUNT(*)
@@ -125,7 +125,7 @@ FROM CHICAGO_CRIME_DATA;
 
 **Interpretation**: There were 533 crime records in the dataset.
 
-### Problem 2: Communities with per capita income < 11,000
+### 2.  Which communities have a per capita income < $11,000?
 ```sql
 %%sql
 SELECT COMMUNITY_AREA_NAME, COMMUNITY_AREA_NUMBER, PER_CAPITA_INCOME
@@ -167,7 +167,7 @@ WHERE PER_CAPITA_INCOME < 11000;
 **Interpretation**: West Garfield Park, South Lawndale, Fuller Park, and Riverdale have per capita incomes below $11,000, indicating significant economic challenges in these communities.
 
 
-### Problem 3: Crimes involving minors
+### 3.  Which crimes involve minors?
 ```sql
 %%sql
 SELECT CASE_NUMBER, DESCRIPTION
@@ -195,7 +195,7 @@ WHERE DESCRIPTION LIKE '%MINOR%';
 
 **Interpretation**: Two crimes involving minors; one related to selling/giving liquor to a minor and another related to illegal consumption by a minor.
 
-### Problem 4: Kidnapping crimes involving a child
+### 4.  Are there any kidnapping incidents specifically involving a child?
 ```sql
 %%sql
 SELECT CASE_NUMBER, PRIMARY_TYPE, DESCRIPTION
@@ -222,7 +222,7 @@ WHERE PRIMARY_TYPE = 'KIDNAPPING'
 
 **Interpretation**: One kidnapping case involving a child, specifically a child abduction by a stranger.
 
-### Problem 5: Crimes recorded at schools (distinct types)
+### 5.  What types of crimes (distinct) have been recorded at school locations?
 ```sql
 %%sql
 SELECT DISTINCT PRIMARY_TYPE, DESCRIPTION, LOCATION_DESCRIPTION
@@ -317,7 +317,8 @@ WHERE LOCATION_DESCRIPTION LIKE '%SCHOOL%';
 **Interpretation**: Crimes at schools include various types of battery, criminal damage, narcotics offenses, assault, trespassing, and bomb threats. Both public and private school grounds/buildings are affected.
 
 
-### Problem 6: Average safety score by school type
+### 6.  What is the average safety score for each type of school (Elementary, Middle, High)?
+
 ```sql
 %%sql
 SELECT `Elementary, Middle, or High School`, AVG(SAFETY_SCORE)
@@ -390,7 +391,7 @@ LIMIT 5;
 
 **Interpretation**: Riverdale, Fuller Park, Englewood, North Lawndale, East Garfield Park have the highest poverty rates.
 
-### Problem 8: Community area number with most crimes
+### 8. Which community area number has the highest number of recorded crimes?
 ```sql
 %%sql
 SELECT COMMUNITY_AREA_NUMBER
@@ -417,7 +418,7 @@ LIMIT 1;
 
 **Interpretation**: Community area number 25.0 has the highest number of recorded crimes in the dataset.
 
-### Problem 9: Community with highest hardship index
+### 9.  Which community has the highest hardship index?
 ```sql
 %%sql
 SELECT COMMUNITY_AREA_NAME
@@ -442,7 +443,7 @@ WHERE HARDSHIP_INDEX = (
 
 **Interpretation**: Riverdale has the highest hardship index, indicating it faces significant socioeconomic challenges.
 
-### Problem 10: Community name with the most crimes
+### 10. Which community (by name) recorded the highest number of crimes?
 ```sql
 %%sql
 SELECT COMMUNITY_AREA_NAME
