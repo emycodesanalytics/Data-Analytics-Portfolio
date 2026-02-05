@@ -89,6 +89,7 @@ pip install -r requirements.txt
 import pandas as pd
 import sqlite3
 import prettytable
+
 prettytable.DEFAULT = 'DEFAULT'
 
 con = sqlite3.connect("FinalDB.db")
