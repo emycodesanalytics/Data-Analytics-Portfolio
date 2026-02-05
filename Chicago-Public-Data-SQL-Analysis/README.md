@@ -23,11 +23,11 @@ Answering these requires **integrated data**, not isolated spreadsheets.
 
 Official Chicago open datasets (subset versions prepared for SQL analysis):
 
-1. [**Chicago Census Data**]("data/Chicago-Census-Data.csv")  
+1. [**Chicago Census Data**]("data/ChicagoCensusData.csv")  
    Socioeconomic indicators and hardship index by community area  
-2. [**Chicago Public Schools Data**]("data/Chicago-Public-Schools.csv")  
+2. [**Chicago Public Schools Data**]("data/ChicagoPublicSchools.csv")  
    School-level performance, safety, and attendance metrics  
-3. [**Chicago Crime Data**]("data/Chicago-Crime-Data.csv")  
+3. [**Chicago Crime Data**]("data/ChicagoCrimeData.csv")  
    Reported crime incidents by type, location, year, and community area  
 
 ## ⚙️ Tools & Technologies
@@ -42,7 +42,7 @@ Official Chicago open datasets (subset versions prepared for SQL analysis):
 
 ## 🗄️ Database Schema
 
-### 1️⃣ [CENSUS_DATA]("data/Chicago-Census-Data.csv")
+### 1️⃣ [CENSUS_DATA]("data/ChicagoCensusData.csv")
 
 | Column                              | Description                              |
 |-------------------------------------|------------------------------------------|
@@ -52,7 +52,7 @@ Official Chicago open datasets (subset versions prepared for SQL analysis):
 | PERCENT_HOUSEHOLDS_BELOW_POVERTY    | Poverty percentage                       |
 | HARDSHIP_INDEX                      | Composite socioeconomic hardship score   |
 
-### 2️⃣ [CHICAGO_PUBLIC_SCHOOLS]("data/Chicago-Public-Schools.csv")
+### 2️⃣ [CHICAGO_PUBLIC_SCHOOLS]("data/ChicagoPublicSchools.csv")
 
 | Column                            | Description                  |
 |-----------------------------------|------------------------------|
@@ -62,7 +62,7 @@ Official Chicago open datasets (subset versions prepared for SQL analysis):
 | AVERAGE_STUDENT_ATTENDANCE        | Attendance rate              |
 | COMMUNITY_AREA_NUMBER             | Community location           |
 
-### 3️⃣ [CHICAGO_CRIME_DATA]("data/Chicago-Crime-Data.csv")
+### 3️⃣ [CHICAGO_CRIME_DATA]("data/ChicagoCrimeData.csv")
 
 | Column                  | Description              |
 |-------------------------|--------------------------|
