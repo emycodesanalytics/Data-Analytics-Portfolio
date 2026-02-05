@@ -44,36 +44,764 @@ Official Chicago open datasets (subset versions prepared for SQL analysis):
 
 ### 1️⃣ [CENSUS_DATA]("data/ChicagoCensusData.csv")
 
-| Column                              | Description                              |
-|-------------------------------------|------------------------------------------|
-| COMMUNITY_AREA_NUMBER               | Community identifier                     |
-| COMMUNITY_AREA_NAME                 | Community name                           |
-| PER_CAPITA_INCOME                   | Income per resident                      |
-| PERCENT_HOUSEHOLDS_BELOW_POVERTY    | Poverty percentage                       |
-| HARDSHIP_INDEX                      | Composite socioeconomic hardship score   |
+<table>
+    <thead>
+        <tr>
+            <th>COMMUNITY_AREA_NUMBER</th>
+            <th>COMMUNITY_AREA_NAME</th>
+            <th>PERCENT_OF_HOUSING_CROWDED</th>
+            <th>PERCENT_HOUSEHOLDS_BELOW_POVERTY</th>
+            <th>PERCENT_AGED_16__UNEMPLOYED</th>
+            <th>PERCENT_AGED_25__WITHOUT_HIGH_SCHOOL_DIPLOMA</th>
+            <th>PERCENT_AGED_UNDER_18_OR_OVER_64</th>
+            <th>PER_CAPITA_INCOME</th>
+            <th>HARDSHIP_INDEX</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1.0</td>
+            <td>Rogers Park</td>
+            <td>7.7</td>
+            <td>23.6</td>
+            <td>8.7</td>
+            <td>18.2</td>
+            <td>27.5</td>
+            <td>23939</td>
+            <td>39.0</td>
+        </tr>
+        <tr>
+            <td>2.0</td>
+            <td>West Ridge</td>
+            <td>7.8</td>
+            <td>17.2</td>
+            <td>8.8</td>
+            <td>20.8</td>
+            <td>38.5</td>
+            <td>23040</td>
+            <td>46.0</td>
+        </tr>
+        <tr>
+            <td>3.0</td>
+            <td>Uptown</td>
+            <td>3.8</td>
+            <td>24.0</td>
+            <td>8.9</td>
+            <td>11.8</td>
+            <td>22.2</td>
+            <td>35787</td>
+            <td>20.0</td>
+        </tr>
+        <tr>
+            <td>4.0</td>
+            <td>Lincoln Square</td>
+            <td>3.4</td>
+            <td>10.9</td>
+            <td>8.2</td>
+            <td>13.4</td>
+            <td>25.5</td>
+            <td>37524</td>
+            <td>17.0</td>
+        </tr>
+        <tr>
+            <td>5.0</td>
+            <td>North Center</td>
+            <td>0.3</td>
+            <td>7.5</td>
+            <td>5.2</td>
+            <td>4.5</td>
+            <td>26.2</td>
+            <td>57123</td>
+            <td>6.0</td>
+        </tr>
+    </tbody>
+</table>
+
+[//]: # ()
+[//]: # (| Column                              | Description                              |)
+
+[//]: # (|-------------------------------------|------------------------------------------|)
+
+[//]: # (| COMMUNITY_AREA_NUMBER               | Community identifier                     |)
+
+[//]: # (| COMMUNITY_AREA_NAME                 | Community name                           |)
+
+[//]: # (| PER_CAPITA_INCOME                   | Income per resident                      |)
+
+[//]: # (| PERCENT_HOUSEHOLDS_BELOW_POVERTY    | Poverty percentage                       |)
+
+[//]: # (| HARDSHIP_INDEX                      | Composite socioeconomic hardship score   |)
 
 ### 2️⃣ [CHICAGO_PUBLIC_SCHOOLS]("data/ChicagoPublicSchools.csv")
 
-| Column                            | Description                  |
-|-----------------------------------|------------------------------|
-| School_ID                         | Unique school ID             |
-| NAME_OF_SCHOOL                    | School name                  |
-| SAFETY_SCORE                      | Safety score                 |
-| AVERAGE_STUDENT_ATTENDANCE        | Attendance rate              |
-| COMMUNITY_AREA_NUMBER             | Community location           |
+<table>
+    <thead>
+        <tr>
+            <th>School_ID</th>
+            <th>NAME_OF_SCHOOL</th>
+            <th>Elementary, Middle, or High School</th>
+            <th>Street_Address</th>
+            <th>City</th>
+            <th>State</th>
+            <th>ZIP_Code</th>
+            <th>Phone_Number</th>
+            <th>Link</th>
+            <th>Network_Manager</th>
+            <th>Collaborative_Name</th>
+            <th>Adequate_Yearly_Progress_Made_</th>
+            <th>Track_Schedule</th>
+            <th>CPS_Performance_Policy_Status</th>
+            <th>CPS_Performance_Policy_Level</th>
+            <th>HEALTHY_SCHOOL_CERTIFIED</th>
+            <th>Safety_Icon</th>
+            <th>SAFETY_SCORE</th>
+            <th>Family_Involvement_Icon</th>
+            <th>Family_Involvement_Score</th>
+            <th>Environment_Icon</th>
+            <th>Environment_Score</th>
+            <th>Instruction_Icon</th>
+            <th>Instruction_Score</th>
+            <th>Leaders_Icon</th>
+            <th>Leaders_Score</th>
+            <th>Teachers_Icon</th>
+            <th>Teachers_Score</th>
+            <th>Parent_Engagement_Icon</th>
+            <th>Parent_Engagement_Score</th>
+            <th>Parent_Environment_Icon</th>
+            <th>Parent_Environment_Score</th>
+            <th>AVERAGE_STUDENT_ATTENDANCE</th>
+            <th>Rate_of_Misconducts__per_100_students_</th>
+            <th>Average_Teacher_Attendance</th>
+            <th>Individualized_Education_Program_Compliance_Rate</th>
+            <th>Pk_2_Literacy__</th>
+            <th>Pk_2_Math__</th>
+            <th>Gr3_5_Grade_Level_Math__</th>
+            <th>Gr3_5_Grade_Level_Read__</th>
+            <th>Gr3_5_Keep_Pace_Read__</th>
+            <th>Gr3_5_Keep_Pace_Math__</th>
+            <th>Gr6_8_Grade_Level_Math__</th>
+            <th>Gr6_8_Grade_Level_Read__</th>
+            <th>Gr6_8_Keep_Pace_Math_</th>
+            <th>Gr6_8_Keep_Pace_Read__</th>
+            <th>Gr_8_Explore_Math__</th>
+            <th>Gr_8_Explore_Read__</th>
+            <th>ISAT_Exceeding_Math__</th>
+            <th>ISAT_Exceeding_Reading__</th>
+            <th>ISAT_Value_Add_Math</th>
+            <th>ISAT_Value_Add_Read</th>
+            <th>ISAT_Value_Add_Color_Math</th>
+            <th>ISAT_Value_Add_Color_Read</th>
+            <th>Students_Taking__Algebra__</th>
+            <th>Students_Passing__Algebra__</th>
+            <th>9th Grade EXPLORE (2009)</th>
+            <th>9th Grade EXPLORE (2010)</th>
+            <th>10th Grade PLAN (2009)</th>
+            <th>10th Grade PLAN (2010)</th>
+            <th>Net_Change_EXPLORE_and_PLAN</th>
+            <th>11th Grade Average ACT (2011)</th>
+            <th>Net_Change_PLAN_and_ACT</th>
+            <th>College_Eligibility__</th>
+            <th>Graduation_Rate__</th>
+            <th>College_Enrollment_Rate__</th>
+            <th>COLLEGE_ENROLLMENT</th>
+            <th>General_Services_Route</th>
+            <th>Freshman_on_Track_Rate__</th>
+            <th>X_COORDINATE</th>
+            <th>Y_COORDINATE</th>
+            <th>Latitude</th>
+            <th>Longitude</th>
+            <th>COMMUNITY_AREA_NUMBER</th>
+            <th>COMMUNITY_AREA_NAME</th>
+            <th>Ward</th>
+            <th>Police_District</th>
+            <th>Location</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>610038</td>
+            <td>Abraham Lincoln Elementary School</td>
+            <td>ES</td>
+            <td>615 W Kemper Pl</td>
+            <td>Chicago</td>
+            <td>IL</td>
+            <td>60614</td>
+            <td>(773) 534-5720</td>
+            <td>http://schoolreports.cps.edu/SchoolProgressReport_Eng/Spring2011Eng_610038.pdf</td>
+            <td>Fullerton Elementary Network</td>
+            <td>NORTH-NORTHWEST SIDE COLLABORATIVE</td>
+            <td>No</td>
+            <td>Standard</td>
+            <td>Not on Probation</td>
+            <td>Level 1</td>
+            <td>Yes</td>
+            <td>Very Strong</td>
+            <td>99.0</td>
+            <td>Very Strong</td>
+            <td>99</td>
+            <td>Strong</td>
+            <td>74.0</td>
+            <td>Strong</td>
+            <td>66.0</td>
+            <td>Weak</td>
+            <td>65</td>
+            <td>Strong</td>
+            <td>70</td>
+            <td>Strong</td>
+            <td>56</td>
+            <td>Average</td>
+            <td>47</td>
+            <td>96.00%</td>
+            <td>2.0</td>
+            <td>96.40%</td>
+            <td>95.80%</td>
+            <td>80.1</td>
+            <td>43.3</td>
+            <td>89.6</td>
+            <td>84.9</td>
+            <td>60.7</td>
+            <td>62.6</td>
+            <td>81.9</td>
+            <td>85.2</td>
+            <td>52</td>
+            <td>62.4</td>
+            <td>66.3</td>
+            <td>77.9</td>
+            <td>69.7</td>
+            <td>64.4</td>
+            <td>0.2</td>
+            <td>0.9</td>
+            <td>Yellow</td>
+            <td>Green</td>
+            <td>67.1</td>
+            <td>54.5</td>
+            <td>NDA</td>
+            <td>NDA</td>
+            <td>NDA</td>
+            <td>NDA</td>
+            <td>NDA</td>
+            <td>NDA</td>
+            <td>NDA</td>
+            <td>NDA</td>
+            <td>NDA</td>
+            <td>NDA</td>
+            <td>813</td>
+            <td>33</td>
+            <td>NDA</td>
+            <td>1171699.458</td>
+            <td>1915829.428</td>
+            <td>41.92449696</td>
+            <td>-87.64452163</td>
+            <td>7</td>
+            <td>LINCOLN PARK</td>
+            <td>43</td>
+            <td>18</td>
+            <td>(41.92449696, -87.64452163)</td>
+        </tr>
+        <tr>
+            <td>610281</td>
+            <td>Adam Clayton Powell Paideia Community Academy Elementary School</td>
+            <td>ES</td>
+            <td>7511 S South Shore Dr</td>
+            <td>Chicago</td>
+            <td>IL</td>
+            <td>60649</td>
+            <td>(773) 535-6650</td>
+            <td>http://schoolreports.cps.edu/SchoolProgressReport_Eng/Spring2011Eng_610281.pdf</td>
+            <td>Skyway Elementary Network</td>
+            <td>SOUTH SIDE COLLABORATIVE</td>
+            <td>No</td>
+            <td>Track_E</td>
+            <td>Not on Probation</td>
+            <td>Level 1</td>
+            <td>No</td>
+            <td>Average</td>
+            <td>54.0</td>
+            <td>Strong</td>
+            <td>66</td>
+            <td>Strong</td>
+            <td>74.0</td>
+            <td>Very Strong</td>
+            <td>84.0</td>
+            <td>Weak</td>
+            <td>63</td>
+            <td>Strong</td>
+            <td>76</td>
+            <td>Weak</td>
+            <td>46</td>
+            <td>Average</td>
+            <td>50</td>
+            <td>95.60%</td>
+            <td>15.7</td>
+            <td>95.30%</td>
+            <td>100.00%</td>
+            <td>62.4</td>
+            <td>51.7</td>
+            <td>21.9</td>
+            <td>15.1</td>
+            <td>29</td>
+            <td>42.8</td>
+            <td>38.5</td>
+            <td>27.4</td>
+            <td>44.8</td>
+            <td>42.7</td>
+            <td>14.1</td>
+            <td>34.4</td>
+            <td>16.8</td>
+            <td>16.5</td>
+            <td>0.7</td>
+            <td>1.4</td>
+            <td>Green</td>
+            <td>Green</td>
+            <td>17.2</td>
+            <td>27.3</td>
+            <td>NDA</td>
+            <td>NDA</td>
+            <td>NDA</td>
+            <td>NDA</td>
+            <td>NDA</td>
+            <td>NDA</td>
+            <td>NDA</td>
+            <td>NDA</td>
+            <td>NDA</td>
+            <td>NDA</td>
+            <td>521</td>
+            <td>46</td>
+            <td>NDA</td>
+            <td>1196129.985</td>
+            <td>1856209.466</td>
+            <td>41.76032435</td>
+            <td>-87.55673627</td>
+            <td>43</td>
+            <td>SOUTH SHORE</td>
+            <td>7</td>
+            <td>4</td>
+            <td>(41.76032435, -87.55673627)</td>
+        </tr>
+        <tr>
+            <td>610185</td>
+            <td>Adlai E Stevenson Elementary School</td>
+            <td>ES</td>
+            <td>8010 S Kostner Ave</td>
+            <td>Chicago</td>
+            <td>IL</td>
+            <td>60652</td>
+            <td>(773) 535-2280</td>
+            <td>http://schoolreports.cps.edu/SchoolProgressReport_Eng/Spring2011Eng_610185.pdf</td>
+            <td>Midway Elementary Network</td>
+            <td>SOUTHWEST SIDE COLLABORATIVE</td>
+            <td>No</td>
+            <td>Standard</td>
+            <td>Not on Probation</td>
+            <td>Level 2</td>
+            <td>No</td>
+            <td>Strong</td>
+            <td>61.0</td>
+            <td>NDA</td>
+            <td>NDA</td>
+            <td>Average</td>
+            <td>50.0</td>
+            <td>Weak</td>
+            <td>36.0</td>
+            <td>Weak</td>
+            <td>NDA</td>
+            <td>NDA</td>
+            <td>NDA</td>
+            <td>Average</td>
+            <td>47</td>
+            <td>Weak</td>
+            <td>41</td>
+            <td>95.70%</td>
+            <td>2.3</td>
+            <td>94.70%</td>
+            <td>98.30%</td>
+            <td>53.7</td>
+            <td>26.6</td>
+            <td>38.3</td>
+            <td>34.7</td>
+            <td>43.7</td>
+            <td>57.3</td>
+            <td>48.8</td>
+            <td>39.2</td>
+            <td>46.8</td>
+            <td>44</td>
+            <td>7.5</td>
+            <td>21.9</td>
+            <td>18.3</td>
+            <td>15.5</td>
+            <td>-0.9</td>
+            <td>-1.0</td>
+            <td>Red</td>
+            <td>Red</td>
+            <td>NDA</td>
+            <td>NDA</td>
+            <td>NDA</td>
+            <td>NDA</td>
+            <td>NDA</td>
+            <td>NDA</td>
+            <td>NDA</td>
+            <td>NDA</td>
+            <td>NDA</td>
+            <td>NDA</td>
+            <td>NDA</td>
+            <td>NDA</td>
+            <td>1324</td>
+            <td>44</td>
+            <td>NDA</td>
+            <td>1148427.165</td>
+            <td>1851012.215</td>
+            <td>41.74711093</td>
+            <td>-87.73170248</td>
+            <td>70</td>
+            <td>ASHBURN</td>
+            <td>13</td>
+            <td>8</td>
+            <td>(41.74711093, -87.73170248)</td>
+        </tr>
+        <tr>
+            <td>609993</td>
+            <td>Agustin Lara Elementary Academy</td>
+            <td>ES</td>
+            <td>4619 S Wolcott Ave</td>
+            <td>Chicago</td>
+            <td>IL</td>
+            <td>60609</td>
+            <td>(773) 535-4389</td>
+            <td>http://schoolreports.cps.edu/SchoolProgressReport_Eng/Spring2011Eng_609993.pdf</td>
+            <td>Pershing Elementary Network</td>
+            <td>SOUTHWEST SIDE COLLABORATIVE</td>
+            <td>No</td>
+            <td>Track_E</td>
+            <td>Not on Probation</td>
+            <td>Level 1</td>
+            <td>No</td>
+            <td>Average</td>
+            <td>56.0</td>
+            <td>Average</td>
+            <td>44</td>
+            <td>Average</td>
+            <td>45.0</td>
+            <td>Weak</td>
+            <td>37.0</td>
+            <td>Weak</td>
+            <td>65</td>
+            <td>Average</td>
+            <td>48</td>
+            <td>Average</td>
+            <td>53</td>
+            <td>Strong</td>
+            <td>58</td>
+            <td>95.50%</td>
+            <td>10.4</td>
+            <td>95.80%</td>
+            <td>100.00%</td>
+            <td>76.9</td>
+            <td>NDA</td>
+            <td>26</td>
+            <td>24.7</td>
+            <td>61.8</td>
+            <td>49.7</td>
+            <td>39.2</td>
+            <td>27.2</td>
+            <td>69.7</td>
+            <td>60.6</td>
+            <td>9.1</td>
+            <td>18.2</td>
+            <td>11.1</td>
+            <td>9.6</td>
+            <td>0.9</td>
+            <td>2.4</td>
+            <td>Green</td>
+            <td>Green</td>
+            <td>42.9</td>
+            <td>25</td>
+            <td>NDA</td>
+            <td>NDA</td>
+            <td>NDA</td>
+            <td>NDA</td>
+            <td>NDA</td>
+            <td>NDA</td>
+            <td>NDA</td>
+            <td>NDA</td>
+            <td>NDA</td>
+            <td>NDA</td>
+            <td>556</td>
+            <td>42</td>
+            <td>NDA</td>
+            <td>1164504.29</td>
+            <td>1873959.199</td>
+            <td>41.8097569</td>
+            <td>-87.6721446</td>
+            <td>61</td>
+            <td>NEW CITY</td>
+            <td>20</td>
+            <td>9</td>
+            <td>(41.8097569, -87.6721446)</td>
+        </tr>
+        <tr>
+            <td>610513</td>
+            <td>Air Force Academy High School</td>
+            <td>HS</td>
+            <td>3630 S Wells St</td>
+            <td>Chicago</td>
+            <td>IL</td>
+            <td>60609</td>
+            <td>(773) 535-1590</td>
+            <td>http://schoolreports.cps.edu/SchoolProgressReport_Eng/Spring2011Eng_610513.pdf</td>
+            <td>Southwest Side High School Network</td>
+            <td>SOUTHWEST SIDE COLLABORATIVE</td>
+            <td>NDA</td>
+            <td>Standard</td>
+            <td>Not on Probation</td>
+            <td>Not Enough Data</td>
+            <td>Yes</td>
+            <td>Average</td>
+            <td>49.0</td>
+            <td>Strong</td>
+            <td>60</td>
+            <td>Strong</td>
+            <td>60.0</td>
+            <td>Average</td>
+            <td>55.0</td>
+            <td>Weak</td>
+            <td>45</td>
+            <td>Average</td>
+            <td>54</td>
+            <td>Average</td>
+            <td>53</td>
+            <td>Average</td>
+            <td>49</td>
+            <td>93.30%</td>
+            <td>15.6</td>
+            <td>96.90%</td>
+            <td>100.00%</td>
+            <td>NDA</td>
+            <td>NDA</td>
+            <td>NDA</td>
+            <td>NDA</td>
+            <td>NDA</td>
+            <td>NDA</td>
+            <td>NDA</td>
+            <td>NDA</td>
+            <td>NDA</td>
+            <td>NDA</td>
+            <td>NDA</td>
+            <td>NDA</td>
+            <td>None</td>
+            <td>None</td>
+            <td>None</td>
+            <td>None</td>
+            <td>NDA</td>
+            <td>NDA</td>
+            <td>NDA</td>
+            <td>NDA</td>
+            <td>14.6</td>
+            <td>14.8</td>
+            <td>NDA</td>
+            <td>16</td>
+            <td>1.4</td>
+            <td>NDA</td>
+            <td>NDA</td>
+            <td>NDA</td>
+            <td>NDA</td>
+            <td>NDA</td>
+            <td>302</td>
+            <td>40</td>
+            <td>91.8</td>
+            <td>1175177.622</td>
+            <td>1880745.126</td>
+            <td>41.82814609</td>
+            <td>-87.63279369</td>
+            <td>34</td>
+            <td>ARMOUR SQUARE</td>
+            <td>11</td>
+            <td>9</td>
+            <td>(41.82814609, -87.63279369)</td>
+        </tr>
+    </tbody>
+</table>
+
+[//]: # ()
+[//]: # (| Column                            | Description                  |)
+
+[//]: # (|-----------------------------------|------------------------------|)
+
+[//]: # (| School_ID                         | Unique school ID             |)
+
+[//]: # (| NAME_OF_SCHOOL                    | School name                  |)
+
+[//]: # (| SAFETY_SCORE                      | Safety score                 |)
+
+[//]: # (| AVERAGE_STUDENT_ATTENDANCE        | Attendance rate              |)
+
+[//]: # (| COMMUNITY_AREA_NUMBER             | Community location           |)
 
 ### 3️⃣ [CHICAGO_CRIME_DATA]("data/ChicagoCrimeData.csv")
 
-| Column                  | Description              |
-|-------------------------|--------------------------|
-| ID                      | Crime record ID          |
-| CASE_NUMBER             | Police case number       |
-| PRIMARY_TYPE            | Crime category           |
-| DESCRIPTION             | Crime description        |
-| LOCATION_DESCRIPTION    | Location of crime        |
-| ARREST                  | Arrest made (0/1)        |
-| YEAR                    | Year                     |
-| COMMUNITY_AREA_NUMBER   | Community location       |
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>CASE_NUMBER</th>
+            <th>DATE</th>
+            <th>BLOCK</th>
+            <th>IUCR</th>
+            <th>PRIMARY_TYPE</th>
+            <th>DESCRIPTION</th>
+            <th>LOCATION_DESCRIPTION</th>
+            <th>ARREST</th>
+            <th>DOMESTIC</th>
+            <th>BEAT</th>
+            <th>DISTRICT</th>
+            <th>WARD</th>
+            <th>COMMUNITY_AREA_NUMBER</th>
+            <th>FBICODE</th>
+            <th>X_COORDINATE</th>
+            <th>Y_COORDINATE</th>
+            <th>YEAR</th>
+            <th>LATITUDE</th>
+            <th>LONGITUDE</th>
+            <th>LOCATION</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>3512276</td>
+            <td>HK587712</td>
+            <td>2004-08-28</td>
+            <td>047XX S KEDZIE AVE</td>
+            <td>890</td>
+            <td>THEFT</td>
+            <td>FROM BUILDING</td>
+            <td>SMALL RETAIL STORE</td>
+            <td>0</td>
+            <td>0</td>
+            <td>911</td>
+            <td>9</td>
+            <td>14.0</td>
+            <td>58.0</td>
+            <td>6</td>
+            <td>1155838.0</td>
+            <td>1873050.0</td>
+            <td>2004</td>
+            <td>41.8074405</td>
+            <td>-87.70395585</td>
+            <td>(41.8074405, -87.703955849)</td>
+        </tr>
+        <tr>
+            <td>3406613</td>
+            <td>HK456306</td>
+            <td>2004-06-26</td>
+            <td>009XX N CENTRAL PARK AVE</td>
+            <td>820</td>
+            <td>THEFT</td>
+            <td>$500 AND UNDER</td>
+            <td>OTHER</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1112</td>
+            <td>11</td>
+            <td>27.0</td>
+            <td>23.0</td>
+            <td>6</td>
+            <td>1152206.0</td>
+            <td>1906127.0</td>
+            <td>2004</td>
+            <td>41.89827996</td>
+            <td>-87.71640551</td>
+            <td>(41.898279962, -87.716405505)</td>
+        </tr>
+        <tr>
+            <td>8002131</td>
+            <td>HT233595</td>
+            <td>2011-04-04</td>
+            <td>043XX S WABASH AVE</td>
+            <td>820</td>
+            <td>THEFT</td>
+            <td>$500 AND UNDER</td>
+            <td>NURSING HOME/RETIREMENT HOME</td>
+            <td>0</td>
+            <td>0</td>
+            <td>221</td>
+            <td>2</td>
+            <td>3.0</td>
+            <td>38.0</td>
+            <td>6</td>
+            <td>1177436.0</td>
+            <td>1876313.0</td>
+            <td>2011</td>
+            <td>41.81593313</td>
+            <td>-87.62464213</td>
+            <td>(41.815933131, -87.624642127)</td>
+        </tr>
+        <tr>
+            <td>7903289</td>
+            <td>HT133522</td>
+            <td>2010-12-30</td>
+            <td>083XX S KINGSTON AVE</td>
+            <td>840</td>
+            <td>THEFT</td>
+            <td>FINANCIAL ID THEFT: OVER $300</td>
+            <td>RESIDENCE</td>
+            <td>0</td>
+            <td>0</td>
+            <td>423</td>
+            <td>4</td>
+            <td>7.0</td>
+            <td>46.0</td>
+            <td>6</td>
+            <td>1194622.0</td>
+            <td>1850125.0</td>
+            <td>2010</td>
+            <td>41.74366532</td>
+            <td>-87.56246276</td>
+            <td>(41.743665322, -87.562462756)</td>
+        </tr>
+        <tr>
+            <td>10402076</td>
+            <td>HZ138551</td>
+            <td>2016-02-02</td>
+            <td>033XX W 66TH ST</td>
+            <td>820</td>
+            <td>THEFT</td>
+            <td>$500 AND UNDER</td>
+            <td>ALLEY</td>
+            <td>0</td>
+            <td>0</td>
+            <td>831</td>
+            <td>8</td>
+            <td>15.0</td>
+            <td>66.0</td>
+            <td>6</td>
+            <td>1155240.0</td>
+            <td>1860661.0</td>
+            <td>2016</td>
+            <td>41.7734553</td>
+            <td>-87.70648047</td>
+            <td>(41.773455295, -87.706480471)</td>
+        </tr>
+    </tbody>
+</table>
+[//]: # ()
+[//]: # (| Column                  | Description              |)
+
+[//]: # (|-------------------------|--------------------------|)
+
+[//]: # (| ID                      | Crime record ID          |)
+
+[//]: # (| CASE_NUMBER             | Police case number       |)
+
+[//]: # (| PRIMARY_TYPE            | Crime category           |)
+
+[//]: # (| DESCRIPTION             | Crime description        |)
+
+[//]: # (| LOCATION_DESCRIPTION    | Location of crime        |)
+
+[//]: # (| ARREST                  | Arrest made &#40;0/1&#41;        |)
+
+[//]: # (| YEAR                    | Year                     |)
+
+[//]: # (| COMMUNITY_AREA_NUMBER   | Community location       |)
 
 ## 🔄 Setup & Data Loading (Python ETL)
 
@@ -493,11 +1221,12 @@ LIMIT 1;
 ## Final Note
 This project shows end-to-end analytical ownership:  
 Data ingestion → Database design → SQL analysis → Interpretation — all using real urban data.  
-This is how civic data becomes evidence.
+
+[//]: # (This is how civic data becomes evidence.)
 
 ---
 
-## 📫 Connect with me:
+### Connect with me:
 * **LinkedIn:** [linkedin.com/in/emycodes](https://linkedin.com/in/emycodes)
 * **Role Interests:** Data Analyst, Business Intelligence Analyst, Product Analyst.
 
