@@ -14,6 +14,14 @@ I am an **Industrial Mathematics** graduate specializing in Data Analytics and P
 
 ## 📁 Featured Projects
 
+### 🏙️ [Chicago Urban Analytics: SQL & Python Integration](Chicago-Public-Data-SQL-Analysis/)
+**Tools:** SQL (SQLite), Python (Pandas), ipython-sql
+- Engineered a relational database to investigate the intersections of **crime**, **education**, and **socioeconomic conditions** in Chicago.
+- **Technical Achievement:** Developed a clean ETL pipeline to migrate unstructured civic CSV data into optimized SQL tables, solving 10 complex relational problems with 100% accuracy.
+- **Strategic Insights:**
+  - Quantified the strong correlation between **hardship indices** and **crime concentration**, identifying **Austin** as the most crime-prone area.
+  - Benchmarked school safety across the city, revealing that middle schools faced the highest safety challenges compared to elementary and high schools.
+
 ### 📈 [Python-Stock-Revenue-Analysis](Stock-Revenue-Analysis-Tesla_GameStop/)
 **Tools:** Python (yfinance, BeautifulSoup, Matplotlib, Pandas)
 
