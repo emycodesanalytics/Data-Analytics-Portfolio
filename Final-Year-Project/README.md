@@ -21,7 +21,7 @@ Developed as a final year project in the Department of Mathematical Sciences, FU
 * **Mathematical Theory:** Collocation & Interpolation, Linear Multistep Methods (LMM).
 
 ---
-#### Find the full project [here](./Documentation/MTS192584_OGUNDARE_THESIS.pdf) and Maple scripts [here](./Scripts)    
+#### Find the full project [here](./Documentation/MTS192584_OGUNDARE_THESIS.pdf), Maple scripts [here](./Scripts) and LateX source [here](./Documentation/MTS192584_OGUNDARE_THESIS.tex).
 
 ---
 
