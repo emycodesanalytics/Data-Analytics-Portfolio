@@ -1,4 +1,8 @@
-# Urban Analytics with SQL & Python: Crime, Education, and Census Data (Chicago)
+# Chicago Public Data SQL Analysis 
+  
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
+[![Python Version](https://img.shields.io/badge/Python-3.7%2B-blue.svg)](https://www.python.org/downloads/release/python-370/)  
+[![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](https://jupyter.org/)
 
 ## 📌 Project Overview
 
