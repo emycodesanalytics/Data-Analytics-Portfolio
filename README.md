@@ -12,9 +12,9 @@ I am an **Industrial Mathematics** graduate specializing in Data Analytics and P
 
 ---
 
-## 📁 Featured Projects
+## 📁 [Featured Projects]("./PROJECT_COLLECTIONS.md"):
 
-### 🏙️ [Chicago Urban Analytics: SQL & Python Integration](Chicago-Public-Data-SQL-Analysis/)
+### [Chicago Urban Analytics: SQL & Python Integration](Chicago-Public-Data-SQL-Analysis/)
 **Tools:** SQL (SQLite), Python (Pandas), ipython-sql
 - Engineered a relational database to investigate the intersections of **crime**, **education**, and **socioeconomic conditions** in Chicago.
 - **Technical Achievement:** Developed a clean ETL pipeline to migrate unstructured civic CSV data into optimized SQL tables, solving 10 complex relational problems with 100% accuracy.
@@ -22,7 +22,7 @@ I am an **Industrial Mathematics** graduate specializing in Data Analytics and P
   - Quantified the strong correlation between **hardship indices** and **crime concentration**, identifying **Austin** as the most crime-prone area.
   - Benchmarked school safety across the city, revealing that middle schools faced the highest safety challenges compared to elementary and high schools.
 
-### 📈 [Python-Stock-Revenue-Analysis](Stock-Revenue-Analysis-Tesla_GameStop/)
+### [Python-Stock-Revenue-Analysis](Stock-Revenue-Analysis-Tesla_GameStop/)
 **Tools:** Python (yfinance, BeautifulSoup, Matplotlib, Pandas)
 
 - Automated a live data-harvesting pipeline to analyze the correlation between stock market valuation and quarterly revenue.
@@ -31,31 +31,31 @@ I am an **Industrial Mathematics** graduate specializing in Data Analytics and P
   - **Tesla (TSLA):** Visualized a strong historical correlation between surging production revenue and stock appreciation, particularly during the 2020–2021 expansion phase when the market began pricing in long-term profitability.
   -  **GameStop (GME):** Quantified the historic *decoupling* of stock price from fundamental revenue during early 2021, illustrating a classic data signature of sentiment-driven market volatility.
 
-### 📊 [WPM-DWR-Automation-2025](WPM-DWR-Automation-2025/)
+### [WPM-DWR-Automation-2025](WPM-DWR-Automation-2025/)
 **Tools:** Microsoft Excel, Google Forms, Automated Google Sheets Pipeline
 * Developed a full-cycle data solution to transition a manual monitoring system into an automated digital ecosystem for **Word Point Ministries**.
 * **Technical Achievement:** Processed **92 responses** from **16 individuals** to build a comprehensive dashboard tracking engagement across **5 centers** in Osun State.
 * **Impact:** Identified the **University of Ilesa** as the engagement lead (48 submissions) and isolated low-performing centers for strategic leadership follow-up.
 
-### 🛠️ [WordAlive Tracker Testing](WordAlive-Tracker-Testing/)
+### [WordAlive Tracker Testing](WordAlive-Tracker-Testing/)
 **Tools:** Excel, Google Forms, Excel Tables
 * Automated a manual tracking system for a 100+ member community to eliminate data entry bottlenecks.
 * **Technical Achievement:** Built a digital pipeline transforming raw Google Form inputs into real-time analytical dashboards.
 * **Metric:** Segmented users by 50% and 60% submission rates to provide technical data for targeted retention strategies.
 
-### 🏋️‍♂️ [Global Fitness Market Analysis](Fitness-Trends-Analysis/)
+### [Global Fitness Market Analysis](Fitness-Trends-Analysis/)
 **Tools:** Python (Pandas, Matplotlib)
 * Analyzed global search trends (2018–2023) to identify shifts in the fitness industry.
 * **Technical Achievement:** Isolated the 2020 "Home Workout" surge and identified regional hotspots like the **United States** and **Philippines**.
 * **Finding:** Identified definitive peaks in digital fitness interest, providing a quantitative basis for market entry strategies.
 
-### 🎬 [Streaming Trends Analysis](Streaming-Trends-Analysis/)
+### [Streaming Trends Analysis](Streaming-Trends-Analysis/)
 **Tools:** Python (Pandas, Seaborn)
 * Executed an Exploratory Data Analysis (EDA) on a dataset of 4,800+ titles to uncover entertainment industry patterns.
 * **Technical Achievement:** Utilized boolean indexing and temporal segmentation to isolate 1990s content and identify outliers in genre distribution.
 * **Finding:** Quantified the most frequent movie duration of the 1990s as **94 minutes**, establishing a technical benchmark for content pacing.
 
-### 📉 [Numerical Methods & Computational Modeling](Final-Year-Project/)
+### [Numerical Methods & Computational Modeling](Final-Year-Project/)
 **Tools:** Maple, LaTeX
 * Developed a high-order (Order 6) numerical algorithm to solve general second-order Ordinary Differential Equations (ODEs) directly.
 * **Academic Achievement:** Validated accuracy against established research (Olayemi, Omole, Kuboye) and achieved a high-precision error constant.
