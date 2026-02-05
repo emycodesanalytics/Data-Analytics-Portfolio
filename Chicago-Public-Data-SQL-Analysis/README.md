@@ -103,8 +103,7 @@ df.to_sql("CHICAGO_PUBLIC_SCHOOLS", con, if_exists='replace', index=False, metho
 df = pd.read_csv("ChicagoCrimeData.csv")
 df.to_sql("CHICAGO_CRIME_DATA", con, if_exists='replace', index=False, method="multi")
 ```
-## SQL Analysis (Jupyter Notebook)
-Using magic commands to connect to the SQLite database with prefixed code, '%%sql' for cell magic and '%sql' for line magic as shown below:
+3. Using magic commands to connect to the SQLite database with prefixed code, `*%%sql*` for cell magic and `*%sql*` for line magic as shown below:
 ```python
 %load_ext sql
 %sql sqlite:///FinalDB.db
