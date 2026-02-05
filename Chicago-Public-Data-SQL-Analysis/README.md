@@ -23,11 +23,11 @@ Answering these requires **integrated data**, not isolated spreadsheets.
 
 Official Chicago open datasets (subset versions prepared for SQL analysis):
 
-1. [**Chicago Census Data**]("data/ChicagoCensusData.csv")  
+1. [**Chicago Census Data**](data/ChicagoCensusData.csv)  
    Socioeconomic indicators and hardship index by community area  
-2. [**Chicago Public Schools Data**]("data/ChicagoPublicSchools.csv")  
+2. [**Chicago Public Schools Data**](data/ChicagoPublicSchools.csv)  
    School-level performance, safety, and attendance metrics  
-3. [**Chicago Crime Data**]("data/ChicagoCrimeData.csv")  
+3. [**Chicago Crime Data**](data/ChicagoCrimeData.csv)  
    Reported crime incidents by type, location, year, and community area  
 
 ## ⚙️ Tools & Technologies
@@ -40,9 +40,9 @@ Official Chicago open datasets (subset versions prepared for SQL analysis):
 
 **Dependencies** are listed in [`requirements.txt`](./requirements.txt).
 
-## 🗄️ Database Schema
+## Sample Data Snapshots (from the first 5 rows of each dataset):
 
-### 1️⃣ [CENSUS_DATA]("data/ChicagoCensusData.csv")
+#### 1️⃣ [CENSUS_DATA](data/ChicagoCensusData.csv)
 
 <table>
     <thead>
@@ -132,7 +132,7 @@ Official Chicago open datasets (subset versions prepared for SQL analysis):
 
 [//]: # (| HARDSHIP_INDEX                      | Composite socioeconomic hardship score   |)
 
-### 2️⃣ [CHICAGO_PUBLIC_SCHOOLS]("data/ChicagoPublicSchools.csv")
+#### 2️⃣ [CHICAGO_PUBLIC_SCHOOLS](data/ChicagoPublicSchools.csv)
 
 <table>
     <thead>
@@ -636,7 +636,7 @@ Official Chicago open datasets (subset versions prepared for SQL analysis):
 
 [//]: # (| COMMUNITY_AREA_NUMBER             | Community location           |)
 
-### 3️⃣ [CHICAGO_CRIME_DATA]("data/ChicagoCrimeData.csv")
+#### 3️⃣ [CHICAGO_CRIME_DATA](data/ChicagoCrimeData.csv)
 
 <table>
     <thead>
