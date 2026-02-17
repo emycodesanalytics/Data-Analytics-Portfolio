@@ -1,6 +1,7 @@
 # An Order Six Numerical Method for Direct Solution of General Second Order ODEs
-**Industrial Mathematics Thesis | Federal University of Technology, Akure (FUTA)**
+**Industrial Mathematics | Federal University of Technology, Akure (FUTA)**    
 
+**Student Name:**    OGUNDARE OLAMIDE EMMANUEL | MTS/19/2584    
 ## 📂 Documentation
 * **Full Thesis (PDF):** [Download MTS192584_OGUNDARE_THESIS.pdf](./Documentation/MTS192584_OGUNDARE_THESIS.pdf)
 * **Maple Source Code:** [View Scripts](./Scripts)
