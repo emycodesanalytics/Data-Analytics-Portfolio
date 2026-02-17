@@ -4,7 +4,9 @@
 **Student Name:**    OGUNDARE OLAMIDE EMMANUEL | MTS/19/2584    
 ## 📂 Documentation
 * **Full Thesis (PDF):** [Download MTS192584_OGUNDARE_THESIS.pdf](./Documentation/MTS192584_OGUNDARE_THESIS.pdf)
-* **Maple Source Code:** [View Scripts](./Scripts)
+* **Scheme of Work - Maple Code:** [View Scripts](./Scripts/scheme.mw)
+* **Test Problems - Maple Code:** [View Scripts](./Scripts)
+
 
 ---
 
