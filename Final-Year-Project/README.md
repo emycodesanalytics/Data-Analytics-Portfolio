@@ -5,7 +5,7 @@
 ## 📂 Documentation
 * **Full Thesis (PDF):** [Download MTS192584_OGUNDARE_THESIS.pdf](./Documentation/MTS192584_OGUNDARE_THESIS.pdf)
 * **Scheme of Work - Maple Code:** [View Script](./Scripts/scheme.mw)
-* **Test Problems - Maple Code:** [View Scripts](./Scripts)
+* **Test Problems - Maple Codes:** [View Scripts](./Scripts)
 
 
 ---
